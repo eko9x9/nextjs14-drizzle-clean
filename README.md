@@ -17,7 +17,7 @@ bun dev
 DB migration:
 
 ```bash
-bun db:push
+bun db:migrate
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
