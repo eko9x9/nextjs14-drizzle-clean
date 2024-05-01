@@ -7,7 +7,7 @@ dotenv.config({
 
 export default {
     schema: './src/db/schema/index.ts',
-    out: './outs/drizzle',
+    out: './drizzle',
     driver: 'mysql2',
     dbCredentials: {
         uri: process.env.DB_URL!
